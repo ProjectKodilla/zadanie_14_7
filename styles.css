@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+#app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+  margin: 5px;
+  background-color: #457971;
+}
+#app .app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	max-width: auto;
+	width: 100%;
+	margin: 20px;
+	padding: 10px;
+}
+.contactForm {
+	border: 1px solid #abd5d1;
+	padding: 10px;
+	max-width: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.contactForm input {
+	display: flex;
+	flex-direction: row;
+	width: 250px;
+	margin: 10px;
+}
+.contactForm button {
+	display: flex;
+	justify-content: center;
+	background-color: #abd5d1;
+	text-transform: uppercase;
+	font-size: 10px;
+	letter-spacing: 1px;
+	width: 180px;
+	height: 50px;
+	margin: 5px 75px;
+}
+.contactsList {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	width: 800px;
+}
+.contactsList .contactItem {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	background-color: #abd5d1;
+	margin-top: 15px;
+	padding: 10px;
+	width: 90%;
+	border-radius: 5px;
+}
+#app .app .contactsList .contactItem .contactLabel {
+	width: 200px;
+	height: 20px;
+	margin-left: 50px;
+}
+#app .app .contactsList .contactItem .contactEmail {
+	position: absolute;
+	width: 250px;
+	top: 40px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.contactItem img {
+	width: 50px;
+	height: 50px;
+}
